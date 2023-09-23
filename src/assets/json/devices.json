@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "device_type": "SMART WATCH",
+    "device": "Tempus SW70 ",
+    "connected": "Conectado"
+  },
+  {
+    "id": 2,
+    "device_type": "Bombilla Led 7643",
+    "device": "10:30 A.M",
+    "connected": "Conectado"
+  },
+  {
+    "id": 3,
+    "device_type": "SMART WATCH",
+    "device": "Smart Watch 890 ETP",
+    "connected": "Desconectado"
+  },
+  {
+    "id": 1,
+    "device_type": "SMART WATCH",
+    "device": "Tempus SW70 ",
+    "connected": "Conectado"
+  },
+  {
+    "id": 2,
+    "device_type": "Bombilla Led 7643",
+    "device": "10:30 A.M",
+    "connected": "Conectado"
+  },
+  {
+    "id": 3,
+    "device_type": "SMART WATCH",
+    "device": "Smart Watch 890 ETP",
+    "connected": "Desconectado"
+  },
+  {
+    "id": 1,
+    "device_type": "SMART WATCH",
+    "device": "Tempus SW70 ",
+    "connected": "Conectado"
+  },
+  {
+    "id": 2,
+    "device_type": "Bombilla Led 7643",
+    "device": "10:30 A.M",
+    "connected": "Conectado"
+  },
+  {
+    "id": 3,
+    "device_type": "SMART WATCH",
+    "device": "Smart Watch 890 ETP",
+    "connected": "Desconectado"
+  }
+]

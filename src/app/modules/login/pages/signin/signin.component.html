@@ -1,0 +1,60 @@
+<div class="login-wrapper" fxLayout="row" fxLayoutAlign="center center">
+  <mat-card class="box">
+    <mat-card class="box-content">
+      <div class="box-content-margin">
+        <mat-card-header>
+          <div class="background-logo">
+            <a href="#" id="logo-app" class="img-form">
+              <img src="assets/images/logo/white_logo.png" alt="Logo">
+            </a>
+          </div>
+        </mat-card-header>
+        <form class="login-form style-margin-top-small">
+          <mat-card-content>
+            <div>
+              <h1 class="title text-center">
+                Iniciar Sesión
+              </h1>
+              <div class="form-group style-margin-top-small">
+                <span for="loginFormControlUsuario">Usuario</span>
+                <input type="text" class="form-control style-textfield" id="loginFormControlUsuario"
+                  placeholder="Usuario o Correo Electrónico">
+              </div>
+            </div>
+            <div class="style-margin-top-small">
+              <span class="margin-top-small" for="loginFormControlPassword">Contraseña</span>
+              <div class="input-group style-div-border style-textfield-bag">
+
+                <input type="password" id="loginFormControlPassword" class="form-control style-textfield-bag"
+                  placeholder="Contraseña">
+                <div class="input-group-append">
+                  <button class="input-group-text remove-background">
+                    <fa-icon [icon]="faEye" style="color:white"></fa-icon>
+                  </button>
+                </div>
+              </div>
+              <div class="row margin-small">
+                <div class="col-6 align-center ">
+                  <mat-checkbox class="border-check style-text-second-color"
+                    [checked]="checked">Recuerdame</mat-checkbox>
+                </div>
+                <div class="col-6 align-center ">
+                  <u class="style-text-third-color">Olvido la contraseña?</u>
+                </div>
+              </div>
+            </div>
+            <button mat-raised-button class="style-btn-success style-text-fourth-color">Iniciar Sesión</button>
+            <div class="row margin-small">
+              <div class="col-6 align-center ">
+                <p class="style-text-first-color">No es miembro?</p>
+              </div>
+              <div class="col-6 align-center ">
+                <u class="style-text-third-color">Regístrate ahora</u>
+              </div>
+            </div>
+          </mat-card-content>
+        </form>
+      </div>
+    </mat-card>
+  </mat-card>
+</div>

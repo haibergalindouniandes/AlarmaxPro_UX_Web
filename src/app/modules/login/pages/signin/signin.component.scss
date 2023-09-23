@@ -1,0 +1,126 @@
+.style-text-first-color {
+  color: #49A9F2;
+}
+
+.style-text-second-color {
+  color: #1BA5A5;
+}
+
+
+.style-text-third-color {
+  color: #D10F80;
+}
+
+.style-text-fourth-color {
+  color: white;
+}
+
+.login-wrapper mat-card-header {
+  text-align: center;
+  width: 100%;
+  display: block;
+  font-weight: 700;
+}
+
+.align-center {
+  display: flex;
+  justify-content: center;
+}
+
+.login-wrapper .title {
+  font-size: 30px;
+  margin: 0;
+  color: #49A9F2;
+}
+
+.login-wrapper .mat-card {
+  padding: 1%;
+}
+
+.box {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  background: #fff;
+  border-radius: 10px;
+  max-width: 500px;
+}
+
+.box-content {
+  padding: 50px;
+}
+
+.box-content-margin {
+  padding: 10px;
+}
+
+.img-form img {
+  height: auto;
+  width: 250px;
+  padding: 4%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.background-logo {
+  background: #3700B3;
+  border-radius: 10px;
+}
+
+::ng-deep .mat-checkbox {
+  .mat-checkbox-ripple .mat-ripple-element {
+    background-color: #49A9F2 !important;
+  }
+
+  .mat-checkbox-frame {
+    border-color: #49A9F2 !important;
+  }
+}
+
+.margin-small {
+  margin: 20px;
+}
+
+.style-margin-top-small {
+  margin-top: 10px;
+}
+
+.style-textfield {
+  background: #A191D8;
+  border: #514972;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.style-textfield-bag {
+  background: #A191D8;
+  border: none;
+}
+
+.style-btn-success {
+  background: #1BA5A5;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 100%;
+  border: none;
+  background: url('/assets/images/wallpaper/green-wallpaper.png') no-repeat top left;
+  padding: 2px 8px;
+  height: 50px;
+}
+
+.style-div-border {
+  border: #514972;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 7px;
+}
+
+.remove-background {
+  border: none;
+  background: none;
+}
+
+.form-control::-webkit-input-placeholder {
+  color: white;
+}
