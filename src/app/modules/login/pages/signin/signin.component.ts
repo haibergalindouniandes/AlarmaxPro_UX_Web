@@ -3,9 +3,10 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatIconModule } from "@angular/material/icon";
+import { MatCheckboxModule } from '@angular/material/checkbox';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { faEye } from "@fortawesome/free-solid-svg-icons";
-import { MatCheckboxModule } from '@angular/material/checkbox';
+
 
 @Component({
   selector: 'app-signin',

@@ -36,6 +36,7 @@ ng g c modules/dashboard/pages/home
 
 ng g c components/alarms
 ng g c components/alarms-item
+ng g c components/alarms-create
 
 ng g c components/reminders
 ng g c components/reminders-item
