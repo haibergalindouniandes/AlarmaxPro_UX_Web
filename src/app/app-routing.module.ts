@@ -5,6 +5,7 @@ import { HomeComponent } from "./modules/dashboard/pages/home/home.component";
 import { CreateComponent } from "./modules/alarms/pages/create/create.component";
 import { CreateComponent as CreateComponentReminders} from "./modules/reminders/pages/create/create.component";
 import { CreateComponent as  CreateComponentDevices} from "./modules/devices/pages/create/create.component";
+import { AccountComponent } from "./modules/settings/pages/account/account.component";
 
 const routes: Routes = [
   {
@@ -30,6 +31,11 @@ const routes: Routes = [
   {
     path: 'devices/create',
     component: CreateComponentDevices,
+    pathMatch: 'full'
+  },
+  {
+    path: 'settings/account',
+    component: AccountComponent,
     pathMatch: 'full'
   }
 ];

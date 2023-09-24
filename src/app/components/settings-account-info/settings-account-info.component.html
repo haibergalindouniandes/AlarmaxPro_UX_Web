@@ -1,0 +1,65 @@
+<div fxLayout="row" fxLayoutAlign="center center">
+  <mat-card class="box">
+    <mat-card-title class="style-title align-middle">
+      <div class="align-center">
+        <p>Información de la Cuenta</p>
+      </div>
+    </mat-card-title>
+    <mat-card-content>
+      <div class="container-settings">
+        <div class="row">
+          <table>
+            <tr>
+              <td>
+                <div class="form-group style-margin-top-small ">
+                  <span for="accountName">Nombre</span>
+                  <input type="text" class="form-control style-textfield style-text-fourth-color" id="accountName"
+                    value="MISW-2023-14">
+                </div>
+              </td>
+              <td>
+                <div class="form-group style-margin-top-small ">
+                  <span for="accountEmail">Correo Electrónico</span>
+                  <input type="text" class="form-control style-textfield style-text-fourth-color" id="accountEmail"
+                    value="misw202314@uniandes.com">
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="form-group style-margin-top-small ">
+                  <span for="accountID">ID de la Cuenta</span>
+                  <input type="text" class="form-control style-textfield style-text-fourth-color" id="accountID"
+                    value="il232-034343-gksowl-89">
+                </div>
+              </td>
+              <td>
+                <div class="form-group style-margin-top-small ">
+                  <span for="accountPhone">Número de Telefono</span>
+                  <input type="text" class="form-control style-textfield style-text-fourth-color" id="accountPhone"
+                    value="+57 310-000-0000">
+                </div>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <hr class="style-margin-medium">
+        <div class="row style-margin-medium">
+          <div class="align-center style-margin-top">
+            <button mat-raised-button id="btn-backup"
+              class="style-btn-options style-text-fourth-color style-btn-rigth-margin ">Crear Copia</button>
+            <button mat-raised-button id="btn-restore" class="style-btn-options style-text-fourth-color">Restaurar
+              Copia</button>
+          </div>
+          <div class="align-center style-margin-top">
+            <button mat-raised-button id="btn-success"
+              class="style-btn-success style-text-fourth-color style-btn-rigth-margin"
+              (click)="updateInfo()">Aceptar</button>
+            <button mat-raised-button id="btn-cancel" class="style-btn-cancel style-text-fourth-color"
+              (click)="cancel()">Cancelar</button>
+          </div>
+        </div>
+      </div>
+    </mat-card-content>
+  </mat-card>
+</div>

@@ -19,6 +19,8 @@ import { InitComponent } from './components/init/init.component';
 import { ToastrModule } from 'ngx-toastr';
 import { RemindersCreateComponent } from './components/reminders-create/reminders-create.component';
 import { DevicesCreateComponent } from './components/devices-create/devices-create.component';
+import { SettingsAccountMenuComponent } from './components/settings-account-menu/settings-account-menu.component';
+import { SettingsAccountInfoComponent } from './components/settings-account-info/settings-account-info.component';
 
 @NgModule({
   declarations: [
@@ -49,6 +51,8 @@ import { DevicesCreateComponent } from './components/devices-create/devices-crea
     }),
     RemindersCreateComponent,
     DevicesCreateComponent,
+    SettingsAccountMenuComponent,
+    SettingsAccountInfoComponent,
   ],
   providers: [],
   bootstrap: [AppComponent]

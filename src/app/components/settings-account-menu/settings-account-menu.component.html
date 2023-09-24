@@ -1,0 +1,37 @@
+<mat-card class="box">
+  <mat-card-content>
+    <div class="container-settings">
+      <div class="container-fluid">
+        <div class="row style-margin-top">
+          <div class="style-title style-margin-left">
+            <button class="remove-background">
+              <mat-icon style="-webkit-text-fill-color:white" id="configButtonIcon"
+                class="align-left-medium">settings</mat-icon>
+              <span class="style-text-color align-left-medium" id="configButtonSpan">Configuraciones</span>
+            </button>
+          </div>
+        </div>
+        <div class="row style-margin-top">
+          <div class="style-title-dark style-margin-left">
+            <button class="remove-background">
+              <mat-icon style="-webkit-text-fill-color:white" id="accountButtonIcon"
+                class="align-left-medium">link</mat-icon>
+              <span class="style-text-color align-left-medium" id="accountButtonSpan">Cuenta</span>
+            </button>
+          </div>
+        </div>
+        <div class="row style-margin-top">
+          <div class="style-title style-margin-left">
+            <button class="remove-background" (click)="closeSession()">
+              <mat-icon style="-webkit-text-fill-color:white" id="sessionButtonIcon"
+                class="align-left-medium">exit_to_app</mat-icon>
+              <span class="style-text-color align-left-medium" id="sessionButtonSpan">Cerrar Sesión</span>
+            </button>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </mat-card-content>
+</mat-card>

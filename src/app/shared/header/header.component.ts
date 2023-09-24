@@ -26,4 +26,8 @@ export class HeaderComponent implements OnInit {
     this.router.navigate(['/'])
   };
 
+  navigateAccountSettings() {
+    this.router.navigate(['/settings/account'])
+  };
+
 }

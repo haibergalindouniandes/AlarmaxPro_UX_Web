@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { NgFor } from '@angular/common';
 import { MatCardModule } from '@angular/material/card';
+import { MatButtonModule } from '@angular/material/button';
 import { MatRadioModule } from '@angular/material/radio';
 import { MatSelectModule } from '@angular/material/select';
 import { FormsModule } from '@angular/forms';
@@ -23,7 +24,7 @@ interface AppsType {
   templateUrl: './devices-create.component.html',
   styleUrls: ['./devices-create.component.scss'],
   standalone: true,
-  imports: [NgFor, MatCardModule, MatRadioModule, MatSelectModule, FormsModule]
+  imports: [NgFor, MatCardModule, MatRadioModule, MatSelectModule, FormsModule, MatButtonModule]
 })
 export class DevicesCreateComponent implements OnInit {
 
