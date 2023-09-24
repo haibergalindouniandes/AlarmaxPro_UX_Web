@@ -43,3 +43,7 @@ ng g c components/reminders-item
 
 ng g c components/devices
 ng g c components/devices-item
+
+
+ng g m modules/alarms
+ng g c modules/alarms/pages/create

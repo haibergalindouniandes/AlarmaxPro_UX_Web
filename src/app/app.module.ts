@@ -14,6 +14,7 @@ import { RemindersItemComponent } from './components/reminders-item/reminders-it
 import { DevicesComponent } from './components/devices/devices.component';
 import { DevicesItemComponent } from './components/devices-item/devices-item.component';
 import { AlarmsCreateComponent } from './components/alarms-create/alarms-create.component';
+import { CreateComponent } from "./modules/alarms/pages/create/create.component";
 
 @NgModule({
   declarations: [
@@ -34,6 +35,7 @@ import { AlarmsCreateComponent } from './components/alarms-create/alarms-create.
     DevicesComponent,
     DevicesItemComponent,
     AlarmsCreateComponent,
+    CreateComponent
   ],
   providers: [],
   bootstrap: [AppComponent]
