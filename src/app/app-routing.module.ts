@@ -4,6 +4,7 @@ import { InitComponent } from "./components/init/init.component";
 import { HomeComponent } from "./modules/dashboard/pages/home/home.component";
 import { CreateComponent } from "./modules/alarms/pages/create/create.component";
 import { CreateComponent as CreateComponentReminders} from "./modules/reminders/pages/create/create.component";
+import { CreateComponent as  CreateComponentDevices} from "./modules/devices/pages/create/create.component";
 
 const routes: Routes = [
   {
@@ -24,6 +25,11 @@ const routes: Routes = [
   {
     path: 'reminders/create',
     component: CreateComponentReminders,
+    pathMatch: 'full'
+  },
+  {
+    path: 'devices/create',
+    component: CreateComponentDevices,
     pathMatch: 'full'
   }
 ];

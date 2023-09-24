@@ -149,7 +149,8 @@ export class AlarmsCreateComponent implements OnInit {
   ];
 
   constructor(private router: Router,
-    private toastr: ToastrService) { }
+    private toastr: ToastrService
+  ) { }
 
   ngOnInit(): void {
   }

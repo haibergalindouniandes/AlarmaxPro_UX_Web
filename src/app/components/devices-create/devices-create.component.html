@@ -1,0 +1,86 @@
+<mat-card class="box">
+  <mat-card-title class="style-title align-middle">
+    <div class="align-center">
+      <p>Dispositivo Nuevo</p>
+    </div>
+  </mat-card-title>
+  <mat-card-content>
+    <div class="container-devices">
+      <div class="row">
+        <div class="col">
+          <div class="row">
+            <div class="col-2 align-middle style-margin-top"><span class="style-text-bold">Tipo</span></div>
+            <div class="col-10">
+              <div class="box-device-select-options style-select-device-options">
+                <select class="form-select remove-background align-middle" [(ngModel)]="selectedValueDeviceType"
+                  name="repeatOption" id="selectRepeatOption">
+                  <option *ngFor="let deviceType of devicesType" [value]="deviceType.value"
+                    class="style-text-fourth-color">{{deviceType.viewValue}}</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="col">
+            <div class="row">
+              <div class="col-2 align-middle style-margin-top"><span class="style-text-bold">APP</span></div>
+              <div class="col-10">
+                <div class="box-device-select-options style-select-device-options">
+                  <select class="form-select remove-background align-middle" [(ngModel)]="selectedValueAppType"
+                    name="repeatOption" id="selectRepeatOption">
+                    <option *ngFor="let appType of appsType" [value]="appType.value" class="style-text-fourth-color">
+                      {{appType.viewValue}}</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="row align-center style-margin-medium">
+            <span class="style-text-bold">Comportamiento</span>
+          </div>
+          <div class="row style-margin-medium">
+            <mat-radio-group aria-label="Select an option" class="margin-small">
+              <table>
+                <tr>
+                  <td>
+                    <mat-radio-button value="Sonido (Bocina)" class="margin-small">Sonido (Bocina)</mat-radio-button>
+                  </td>
+                  <td>
+                    <mat-radio-button value="Encender" class="margin-small">Encender</mat-radio-button>
+                  </td>
+                  <td>
+                    <mat-radio-button value="Otro" class="margin-small">Otro</mat-radio-button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <mat-radio-button value="Iluminar" class="margin-small">Iluminar</mat-radio-button>
+                  </td>
+                  <td>
+                    <mat-radio-button value="Activar" class="margin-small">Activar</mat-radio-button>
+                  </td>
+                  <td></td>
+                </tr>
+              </table>
+            </mat-radio-group>
+          </div>
+        </div>
+      </div>
+      <hr class="style-margin-medium">
+      <div class="row style-margin-medium">
+        <div class="align-center style-margin-top">
+          <button mat-raised-button id="btn-success"
+            class="style-btn-success style-text-fourth-color style-btn-rigth-margin"
+            (click)="createDevice()">Aceptar</button>
+          <button mat-raised-button id="btn-cancel" class="style-btn-cancel style-text-fourth-color"
+            (click)="cancel()">Cancelar</button>
+        </div>
+      </div>
+    </div>
+  </mat-card-content>
+</mat-card>

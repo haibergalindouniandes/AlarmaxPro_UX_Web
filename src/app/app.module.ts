@@ -18,6 +18,7 @@ import { CreateComponent } from "./modules/alarms/pages/create/create.component"
 import { InitComponent } from './components/init/init.component';
 import { ToastrModule } from 'ngx-toastr';
 import { RemindersCreateComponent } from './components/reminders-create/reminders-create.component';
+import { DevicesCreateComponent } from './components/devices-create/devices-create.component';
 
 @NgModule({
   declarations: [
@@ -47,6 +48,7 @@ import { RemindersCreateComponent } from './components/reminders-create/reminder
       closeButton: true
     }),
     RemindersCreateComponent,
+    DevicesCreateComponent,
   ],
   providers: [],
   bootstrap: [AppComponent]
