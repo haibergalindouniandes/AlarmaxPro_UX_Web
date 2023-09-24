@@ -1,14 +1,6 @@
 Creacion de proyecto Angular:
 ng new AlarmaxPro_UX_Web
 
-Creacion de modulo:
-ng generate module shared
-
-Creacion de componente y asociacion a un modulo:
-ng g component shared/footer
-ng g component shared/header
-ng g component shared/backgroundimage
-
 Agregar libreria Angular Material:
 ng add @angular/material
 
@@ -20,3 +12,38 @@ npm install jquery -- save
 
 Instalar popper:
 npm install --save popper.js angular-popper
+
+Instalar fontawesome
+ng add @fortawesome/angular-fontawesome
+
+Instalar fontawesome svg
+npm i --save @fortawesome/fontawesome-svg-core
+
+Creacion de modulo:
+ng generate module shared
+
+Creacion de componente y asociacion a un modulo:
+ng g component shared/footer
+ng g component shared/header
+ng g component shared/backgroundimage
+
+Creacion de modulos:
+ng g m modules/login
+ng g c modules/login/pages/signin
+
+ng g m modules/dashboard
+ng g c modules/dashboard/pages/home
+
+ng g c components/alarms
+ng g c components/alarms-item
+ng g c components/alarms-create
+
+ng g c components/reminders
+ng g c components/reminders-item
+
+ng g c components/devices
+ng g c components/devices-item
+
+
+ng g m modules/alarms
+ng g c modules/alarms/pages/create

@@ -1,0 +1,132 @@
+<mat-card class="box">
+  <mat-card-title class="style-title align-middle">
+    <div class="align-center">
+      <p class="">Alarma Nueva</p>
+    </div>
+  </mat-card-title>
+  <mat-card-content>
+    <div class="container-alarms">
+      <div class="row">
+        <div class="col-6">
+          <div class="row">
+            <h2 class="align-center">Seleccion Hora</h2>
+          </div>
+          <div class="row">
+            <div class="box-hour style-box-hour">
+              <div class="align-left">
+                <table>
+                  <tr>
+                    <th>
+                      <mat-form-field class="align-middle">
+                        <mat-select [(ngModel)]="selectedValueHour" name="hour" id="selectHour">
+                          <mat-option *ngFor="let hour of hours" [value]="hour.value" class="style-text-fourth-color">
+                            {{hour.viewValue}}
+                          </mat-option>
+                        </mat-select>
+                      </mat-form-field>
+                    </th>
+                    <th>
+                      <mat-form-field class="align-middle">
+                        <mat-select [(ngModel)]="selectedValueMinute" name="minute" id="selectMinute">
+                          <mat-option *ngFor="let minute of minutes" [value]="minute.value"
+                            class="style-text-fourth-color">
+                            {{minute.viewValue}}
+                          </mat-option>
+                        </mat-select>
+                      </mat-form-field>
+                    </th>
+                    <th>
+                      <mat-form-field class="align-middle">
+                        <mat-select [(ngModel)]="selectedValueHourType" name="hourType" id="selectHourType">
+                          <mat-option *ngFor="let hourType of hoursType" [value]="hourType.value"
+                            class="style-text-fourth-color">
+                            {{hourType.viewValue}}
+                          </mat-option>
+                        </mat-select>
+                      </mat-form-field>
+                    </th>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="row">
+            <h2 class="align-center">Días</h2>
+          </div>
+          <div class="row align-left">
+            <div>
+              <section>
+                <mat-checkbox class="margin-small">Lunes</mat-checkbox>
+                <mat-checkbox class="margin-small">Martes</mat-checkbox>
+                <mat-checkbox class="margin-small">Miercoles</mat-checkbox>
+                <mat-checkbox class="margin-small">Jueves</mat-checkbox>
+                <mat-checkbox class="margin-small">Viernes</mat-checkbox>
+                <mat-checkbox class="margin-small">Sabado</mat-checkbox>
+                <mat-checkbox class="margin-small">Domingo</mat-checkbox>
+              </section>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="row style-margin-top">
+          <h2 class="align-center">Opciones</h2>
+        </div>
+        <div class="row">
+          <div class="col-6 align-middle style-margin-top">
+            <div class="row align-left">
+              <mat-radio-group aria-label="Select an option">
+                <mat-radio-button value="snooze" class="margin-small">Snooze</mat-radio-button>
+                <mat-radio-button value="text" class="margin-small">Leer texto</mat-radio-button>
+                <mat-radio-button value="off" class="margin-small">Apagar</mat-radio-button>
+                <mat-radio-button value="operation" class="margin-small">Operación matemática</mat-radio-button>
+              </mat-radio-group>
+            </div>
+          </div>
+          <div class="col-6">
+            <table>
+              <tr>
+                <td>Repetir</td>
+                <td>
+                  <div class="box-alarm-select-options style-select-alarm-options">
+                    <select class="form-select remove-background" [(ngModel)]="selectedValueRepeatOption"
+                      name="repeatOption" id="selectRepeatOption">
+                      <option *ngFor="let repeatOption of repeatOptions" [value]="repeatOption.value"
+                      class="style-text-fourth-color">{{repeatOption.viewValue}}</option>
+                    </select>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>Sooze cuanto apagar</td>
+                <td>
+                  <div class="box-alarm-select-options style-select-alarm-options">
+                    <select class="form-select remove-background" [(ngModel)]="selectedValueSnoozeOption"
+                      name="snoozeOption" id="selectSnoozeOption">
+                      <option *ngFor="let snoozeOption of snoozeOptions" [value]="snoozeOption.value"
+                      class="style-text-fourth-color">{{snoozeOption.viewValue}}</option>
+                    </select>
+                  </div>
+                </td>
+              </tr>
+            </table>
+
+          </div>
+        </div>
+
+      </div>
+      <hr>
+      <div class="row">
+        <div class="align-center style-margin-top">
+          <button mat-raised-button id="btn-success"
+            class="style-btn-success style-text-fourth-color style-btn-rigth-margin">Aceptar</button>
+          <button mat-raised-button id="btn-cancel" class="style-btn-cancel style-text-fourth-color">Cancelar</button>
+        </div>
+      </div>
+    </div>
+
+  </mat-card-content>
+</mat-card>

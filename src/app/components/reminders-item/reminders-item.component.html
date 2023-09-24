@@ -1,0 +1,27 @@
+<div *ngFor="let reminder of reminders">
+  <div class="row">
+    <div class="col-11">
+      <div class="first-cell">
+        <label>
+          <span>{{reminder.description}}</span>
+        </label>
+      </div>
+      <div class="second-cell">
+        <label>
+          <span>{{reminder.hour}}</span>
+        </label>
+      </div>
+      <div class="third-cell">
+        <label>
+          <span>{{reminder.date}}</span>
+        </label>
+      </div>
+    </div>
+    <div class="col-1">
+      <div class="fourth-cell">
+        <fa-icon [icon]="faEllipsisV"></fa-icon>
+      </div>
+    </div>
+    <hr>
+  </div>
+</div>

@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "description": "TRABAJO",
+    "hour": "8:00 A.M",
+    "days": "Lu Ma Mi Ju Vi Sa Do"
+  },
+  {
+    "id": 2,
+    "description": "MEDICAMENTOS",
+    "hour": "10:00 A.M",
+    "days": "Lu Ma Mi Vi"
+  },
+  {
+    "id": 3,
+    "description": "EJERCICIO",
+    "hour": "6:00 P.M",
+    "days": "Lu Mi Vi Do"
+  },
+  {
+    "id": 3,
+    "description": "EJERCICIO",
+    "hour": "6:00 P.M",
+    "days": "Lu Mi Vi Do"
+  },
+  {
+    "id": 3,
+    "description": "EJERCICIO",
+    "hour": "6:00 P.M",
+    "days": "Lu Mi Vi Do"
+  },
+  {
+    "id": 3,
+    "description": "EJERCICIO",
+    "hour": "6:00 P.M",
+    "days": "Lu Mi Vi Do"
+  },
+  {
+    "id": 3,
+    "description": "EJERCICIO",
+    "hour": "6:00 P.M",
+    "days": "Lu Mi Vi Do"
+  }
+]

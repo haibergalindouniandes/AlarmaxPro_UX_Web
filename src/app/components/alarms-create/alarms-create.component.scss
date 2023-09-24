@@ -1,0 +1,231 @@
+.style-text-first-color {
+  color: #49A9F2;
+}
+
+.style-text-second-color {
+  color: #1BA5A5;
+}
+
+.style-text-third-color {
+  color: #D10F80;
+}
+
+.style-text-fourth-color {
+  color: white;
+}
+
+.box {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-left: auto;
+  margin-right: auto;
+  background: #fff;
+  border-radius: 10px;
+  width: 750px;
+  height: 650px;
+  border-color: #999999;
+  border-style: solid;
+}
+
+.container-alarms {
+  position: relative;
+  height: 650px;
+  background-color: white;
+  box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.1), 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  max-height: 560px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  border-radius: 5px;
+  padding: 5%;
+}
+
+.box-hour {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-left: auto;
+  margin-right: auto;
+  background: #fff;
+  border-radius: 5px;
+  width: 250px;
+  height: 150px;
+  border-color: #999999;
+  border-style: solid;
+}
+
+.style-box-hour {
+  background: #FF7597;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: none;
+  background: url('/assets/images/wallpaper/fucsia-wallpaper.png') no-repeat top left;
+  padding: 2px 8px;
+  height: 70px;
+}
+
+.box-alarm-select-options {
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  width: 170px;
+  height: 40px;
+  border-color: #999999;
+  border-style: solid;
+  margin: 3%;
+}
+
+.style-select-alarm-options {
+  background: #A191D8;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: none;
+  background: url('/assets/images/wallpaper/purple-wallpaper.png') no-repeat top left;
+  width: 170px;
+  height: 40;
+}
+
+select:hover {
+  color: white;
+  background: #A191D8;
+  width: 170px;
+  height: 40px;
+}
+
+.style-btn-cancel {
+  background: #FF7597;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: none;
+  background: url('/assets/images/wallpaper/fucsia-wallpaper.png') no-repeat top left;
+  padding: 2px 8px;
+  height: 50px;
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+}
+
+.style-title {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 720px;
+  background: url('/assets/images/wallpaper/blue-wallpaper.png') no-repeat top left;
+  height: 50px;
+  border-radius: 5px;
+}
+
+::ng-deep .mat-checkbox {
+  .mat-checkbox-ripple .mat-ripple-element {
+    background-color: #D10F80 !important;
+  }
+
+  .mat-checkbox-frame {
+    border-color: #D10F80 !important;
+  }
+}
+
+::ng-deep .mat-radio-button.mat-accent .mat-radio-ripple .mat-ripple-element {
+  opacity: 0 !important;
+  background-color: #D10F80 !important;
+}
+
+::ng-deep .mat-radio-button.mat-accent .mat-radio-inner-circle {
+  background-color: #D10F80 !important;
+}
+
+::ng-deep.mat-radio-button.mat-accent.mat-radio-checked .mat-radio-outer-circle {
+  border-color: #D10F80 !important;
+}
+
+::ng-deep.mat-radio-outer-circle {
+  border-color: #D10F80 !important;
+}
+
+::ng-deep .mat-select-panel {
+  background: #D10F80 !important;
+}
+
+::ng-deep .mat-select-arrow {
+  display: flex !important;
+  color: white;
+}
+
+::ng-deep .mat-select-value {
+  color: white !important;
+  font-size: 20px;
+}
+
+::ng-deep .mat-form-field-underline {
+  display: none;
+}
+
+mat-select {
+  width: 55px;
+  height: 50px;
+  -webkit-appearance: menulist-button;
+  -moz-appearance: none;
+}
+
+select {
+  width: 160px;
+  height: 45px;
+  color: white;
+}
+
+button {
+  width: 40%;
+}
+
+.style-btn-success {
+  background: #1BA5A5;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: none;
+  background: url('/assets/images/wallpaper/green-wallpaper.png') no-repeat top left;
+  padding: 2px 8px;
+  height: 50px;
+}
+
+.style-btn-rigth-margin {
+  margin-right: 5%;
+}
+
+.style-margin-top {
+  margin-top: 2%;
+}
+
+.align-middle {
+  display: table-cell;
+  vertical-align: middle;
+  padding-top: 10px;
+}
+
+#btn-succes,
+#btn-cancel {
+  display: inline-block;
+}
+
+#selectHour,
+#selectMinute,
+#selectHourType {
+  display: inline-block;
+}
+
+.align-left {
+  padding-left: 10%;
+}
+
+.align-center {
+  text-align: center;
+}
+
+p {
+  font-size: 20px;
+  color: white;
+}
+
+.remove-background {
+  border: none;
+  background: none;
+}
+
+.margin-small {
+  margin: 2%;
+}
