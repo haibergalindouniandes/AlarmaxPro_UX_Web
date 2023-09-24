@@ -43,6 +43,7 @@ ng g c components/alarms-create
 
 ng g c components/reminders
 ng g c components/reminders-item
+ng g c components/reminders-create
 
 ng g c components/devices
 ng g c components/devices-item
@@ -53,3 +54,7 @@ ng g c modules/alarms/pages/create
 
 
 ng g c components/init
+
+
+ng g m modules/reminders
+ng g c modules/reminders/pages/create

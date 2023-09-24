@@ -2,12 +2,15 @@ import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { NgFor } from '@angular/common';
 import { MatButtonModule } from '@angular/material/button';
+import { MatInputModule } from '@angular/material/input';
+import { MatNativeDateModule } from '@angular/material/core';
 import { MatCardModule } from '@angular/material/card';
 import { MatCheckboxModule } from '@angular/material/checkbox';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatSelectModule } from '@angular/material/select';
 import { MatRadioModule } from '@angular/material/radio';
 import { FormsModule } from '@angular/forms';
+import { MatDatepickerModule } from '@angular/material/datepicker';
 import { ToastrService } from 'ngx-toastr';
 
 interface Hours {
@@ -36,19 +39,23 @@ interface SnoozeOptions {
 }
 
 @Component({
-  selector: 'app-alarms-create',
-  templateUrl: './alarms-create.component.html',
-  styleUrls: ['./alarms-create.component.scss'],
+  selector: 'app-reminders-create',
+  templateUrl: './reminders-create.component.html',
+  styleUrls: ['./reminders-create.component.scss'],
   standalone: true,
-  imports: [NgFor, MatButtonModule, MatCardModule, MatCheckboxModule, MatFormFieldModule, MatSelectModule, FormsModule, MatRadioModule]
+  imports: [
+    NgFor, MatButtonModule, MatCardModule, MatCheckboxModule, MatFormFieldModule, MatSelectModule, FormsModule,
+    MatRadioModule, MatDatepickerModule, MatNativeDateModule, MatInputModule
+  ]
 })
-export class AlarmsCreateComponent implements OnInit {
+export class RemindersCreateComponent implements OnInit {
 
   selectedValueHour?: string;
   selectedValueMinute?: string;
   selectedValueHourType?: string;
   selectedValueRepeatOption?: string;
   selectedValueSnoozeOption?: string;
+  selected?: Date | null;
 
   hours: Hours[] = [
     { value: '1', viewValue: '01' },
@@ -154,13 +161,13 @@ export class AlarmsCreateComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  createAlarm() {
-    this.toastr.success('Confirmation', 'Alarma creada exitosamente');
+  createReminder() {
+    this.toastr.success('Confirmation', 'Recordatorio creado exitosamente');
     this.router.navigate(['/home'])
   };
 
   cancel() {
-    this.toastr.error('Cancelation', 'Creación de alarma cancelada');
+    this.toastr.error('Cancelation', 'Creación de recordatorio cancelado');
     this.router.navigate(['/home'])
   };
 

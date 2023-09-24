@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { InitComponent } from "./components/init/init.component";
 import { HomeComponent } from "./modules/dashboard/pages/home/home.component";
 import { CreateComponent } from "./modules/alarms/pages/create/create.component";
+import { CreateComponent as CreateComponentReminders} from "./modules/reminders/pages/create/create.component";
 
 const routes: Routes = [
   {
@@ -18,6 +19,11 @@ const routes: Routes = [
   {
     path: 'alarms/create',
     component: CreateComponent,
+    pathMatch: 'full'
+  },
+  {
+    path: 'reminders/create',
+    component: CreateComponentReminders,
     pathMatch: 'full'
   }
 ];
