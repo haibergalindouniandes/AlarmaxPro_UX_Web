@@ -15,10 +15,13 @@ import { DevicesComponent } from './components/devices/devices.component';
 import { DevicesItemComponent } from './components/devices-item/devices-item.component';
 import { AlarmsCreateComponent } from './components/alarms-create/alarms-create.component';
 import { CreateComponent } from "./modules/alarms/pages/create/create.component";
+import { InitComponent } from './components/init/init.component';
+import { ToastrModule } from 'ngx-toastr';
 
 @NgModule({
   declarations: [
     AppComponent,
+    InitComponent,
   ],
   imports: [
     BrowserModule,
@@ -35,7 +38,13 @@ import { CreateComponent } from "./modules/alarms/pages/create/create.component"
     DevicesComponent,
     DevicesItemComponent,
     AlarmsCreateComponent,
-    CreateComponent
+    CreateComponent,
+    ToastrModule.forRoot({
+      timeOut: 3000,
+      positionClass: 'toast-top-left',
+      preventDuplicates: true,
+      closeButton: true
+    }),
   ],
   providers: [],
   bootstrap: [AppComponent]

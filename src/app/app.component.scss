@@ -1,8 +1,13 @@
-#backgraoud-sect {
+body {
+  min-width: 1280px;
+  width: auto !important;
+}
+
+#backgroud-sect {
   background-position: center;
   background-repeat: repeat;
   background-size: cover;
-  background-image:  url("../assets/images/wallpaper/wallpaper.png");
+  background-image: url("../assets/images/wallpaper/wallpaper.png");
 }
 
 .backgraund-border {

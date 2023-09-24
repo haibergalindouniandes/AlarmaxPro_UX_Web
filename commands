@@ -13,11 +13,14 @@ npm install jquery -- save
 Instalar popper:
 npm install --save popper.js angular-popper
 
-Instalar fontawesome
+Instalar fontawesome:
 ng add @fortawesome/angular-fontawesome
 
-Instalar fontawesome svg
+Instalar fontawesome svg:
 npm i --save @fortawesome/fontawesome-svg-core
+
+Instalar toastr:
+npm i --save ngx-toastr
 
 Creacion de modulo:
 ng generate module shared
@@ -47,3 +50,6 @@ ng g c components/devices-item
 
 ng g m modules/alarms
 ng g c modules/alarms/pages/create
+
+
+ng g c components/init

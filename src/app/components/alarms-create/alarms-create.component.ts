@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { NgFor } from '@angular/common';
 import { MatButtonModule } from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
@@ -7,6 +8,7 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatSelectModule } from '@angular/material/select';
 import { MatRadioModule } from '@angular/material/radio';
 import { FormsModule } from '@angular/forms';
+import { ToastrModule, ToastrService } from 'ngx-toastr';
 
 interface Hours {
   value: string;
@@ -146,12 +148,20 @@ export class AlarmsCreateComponent implements OnInit {
     { value: '30', viewValue: '30' },
   ];
 
-  constructor() {
-
-  }
+  constructor(private router: Router,
+    private toastr: ToastrService) { }
 
   ngOnInit(): void {
-
   }
+
+  createAlarm() {
+    this.toastr.success('Confirmation', 'Alarma creada exitosamente');
+    this.router.navigate(['/home'])
+  };
+
+  cancel() {
+    this.toastr.error('Cancelation', 'Creación de alarma cancelada');
+    this.router.navigate(['/home'])
+  };
 
 }

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { faPlus } from "@fortawesome/free-solid-svg-icons";
@@ -16,9 +17,13 @@ export class AlarmsComponent implements OnInit {
 
   faPlus = faPlus;
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit(): void {
   }
+
+  navigate() {
+    this.router.navigate(['/alarms/create'])
+  };
 
 }
