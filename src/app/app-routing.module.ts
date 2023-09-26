@@ -6,6 +6,7 @@ import { CreateComponent } from "./modules/alarms/pages/create/create.component"
 import { CreateComponent as CreateComponentReminders} from "./modules/reminders/pages/create/create.component";
 import { CreateComponent as  CreateComponentDevices} from "./modules/devices/pages/create/create.component";
 import { AccountComponent } from "./modules/settings/pages/account/account.component";
+import { NotFoundComponent } from "./components/not-found/not-found.component";
 
 const routes: Routes = [
   {
@@ -36,6 +37,11 @@ const routes: Routes = [
   {
     path: 'settings/account',
     component: AccountComponent,
+    pathMatch: 'full'
+  },
+  {
+    path: '**',
+    component: NotFoundComponent,
     pathMatch: 'full'
   }
 ];

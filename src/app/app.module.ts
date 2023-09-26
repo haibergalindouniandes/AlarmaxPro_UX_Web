@@ -21,11 +21,13 @@ import { RemindersCreateComponent } from './components/reminders-create/reminder
 import { DevicesCreateComponent } from './components/devices-create/devices-create.component';
 import { SettingsAccountMenuComponent } from './components/settings-account-menu/settings-account-menu.component';
 import { SettingsAccountInfoComponent } from './components/settings-account-info/settings-account-info.component';
+import { NotFoundComponent } from './components/not-found/not-found.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     InitComponent,
+    NotFoundComponent,
   ],
   imports: [
     BrowserModule,
