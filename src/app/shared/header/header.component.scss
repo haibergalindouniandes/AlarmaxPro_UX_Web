@@ -14,10 +14,24 @@
   padding: 15px;
 }
 
-::ng-deep .customize-menu {
-  background: #3700B3;
-}
-
 .style-text-color {
   color: white;
+}
+
+.border-menu-options {
+  border-bottom: 1px solid white;
+}
+
+::ng-deep .mat-menu-panel{
+  background: #3700B3;
+  border: 1px solid white;
+}
+
+button.mat-menu-item{
+  background-color: #3700B3;
+}
+
+button.mat-menu-item:hover {
+  background-color: rgb(81, 81, 162);
+  color: #fff !important;
 }

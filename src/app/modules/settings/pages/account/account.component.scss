@@ -1,9 +1,15 @@
 .style-padding-right {
-  padding-right: 20px;
+  padding-right: 2vh;
 }
 
-.centerFlex {
-  align-items: center;
+.main-container {
+  height: 85vh;
+  width: 100vw;
   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.child-container {
   justify-content: center;
 }

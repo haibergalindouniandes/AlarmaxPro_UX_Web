@@ -21,13 +21,28 @@ export class HeaderComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  notImplemented(){
+    this.toastr.warning('Not implemented', '¡¡¡ Esta funcionalidad no esta implementada para este Release  !!!');
+  }
+
   closeSession() {
-    this.toastr.success('Confirmation', 'Se cerró la sesión correctamente');
-    this.router.navigate(['/'])
+    const username = sessionStorage.getItem('username');
+    if (!!username) {
+      sessionStorage.setItem('username', '');
+      this.toastr.success('Confirmation', 'Se cerró la sesión correctamente');
+      this.router.navigate(['/'])
+    } else {
+      this.toastr.error('Unauthorized', '¡¡¡ Debe iniciar sesión para acceder a esta opción  !!!');
+    }
   };
 
   navigateAccountSettings() {
-    this.router.navigate(['/settings/account'])
+    const username = sessionStorage.getItem('username');
+    if (!!username) {
+      this.router.navigate(['/settings/account'])
+    } else {
+      this.toastr.error('Unauthorized', '¡¡¡ Debe iniciar sesión para acceder a esta opción  !!!');
+    }
   };
 
 }

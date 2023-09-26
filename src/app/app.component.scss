@@ -1,16 +1,8 @@
-body {
-  min-width: 1280px;
-  width: auto !important;
-}
-
-#backgroud-sect {
-  background-position: center;
-  background-repeat: repeat;
+::ng-deep body {
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-image: url('../assets/images/wallpaper/wallpaper.png');
   background-size: cover;
-  background-image: url("../assets/images/wallpaper/wallpaper.png");
-}
-
-.backgraund-border {
-  border-style: solid;
-  border-color: white;
+  position: fixed;
 }

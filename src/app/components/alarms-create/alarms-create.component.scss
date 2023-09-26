@@ -117,6 +117,21 @@ select {
   color: white;
 }
 
+::ng-deep .mat-select-panel::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+
+::ng-deep .mat-select-panel::-webkit-scrollbar:vertical {
+  width: 11px;
+   background-color: #D10F80;
+}
+
+::ng-deep .mat-select-panel::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  border: 2px solid #D10F80 !important; /* should match background, can't be transparent */
+  background-color: #e273b3;
+}
+
 .style-btn-cancel {
   background: #FF7597;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);

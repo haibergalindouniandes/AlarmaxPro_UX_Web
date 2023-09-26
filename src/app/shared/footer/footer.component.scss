@@ -1,15 +1,14 @@
-.footer-brand {
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
   height: 40px;
-  width: auto;
-}
-
-.footer-border {
+  background: #000000;
   border-style: solid;
   border-color: white;
 }
 
-.align-middleware {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.align-middle {
+  margin-top: 7px;
 }

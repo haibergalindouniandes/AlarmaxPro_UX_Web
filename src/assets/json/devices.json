@@ -7,8 +7,8 @@
   },
   {
     "id": 2,
-    "device_type": "Bombilla Led 7643",
-    "device": "10:30 A.M",
+    "device_type": "Bombilla Led",
+    "device": "Bombilla Led 7643",
     "connected": "Conectado"
   },
   {
@@ -18,39 +18,39 @@
     "connected": "Desconectado"
   },
   {
-    "id": 1,
+    "id": 4,
     "device_type": "SMART WATCH",
-    "device": "Tempus SW70 ",
-    "connected": "Conectado"
-  },
-  {
-    "id": 2,
-    "device_type": "Bombilla Led 7643",
-    "device": "10:30 A.M",
-    "connected": "Conectado"
-  },
-  {
-    "id": 3,
-    "device_type": "SMART WATCH",
-    "device": "Smart Watch 890 ETP",
+    "device": "Galaxy S20 ",
     "connected": "Desconectado"
   },
   {
-    "id": 1,
-    "device_type": "SMART WATCH",
-    "device": "Tempus SW70 ",
+    "id": 5,
+    "device_type": "Bombilla Led",
+    "device": "Bombilla Led - Habitación",
     "connected": "Conectado"
   },
   {
-    "id": 2,
-    "device_type": "Bombilla Led 7643",
-    "device": "10:30 A.M",
+    "id": 6,
+    "device_type": "Bombilla Led",
+    "device": "Bombilla Led - Baño 1er Piso",
     "connected": "Conectado"
   },
   {
-    "id": 3,
-    "device_type": "SMART WATCH",
-    "device": "Smart Watch 890 ETP",
-    "connected": "Desconectado"
+    "id": 7,
+    "device_type": "Bombilla Led",
+    "device": "Bombilla Led - Cocina",
+    "connected": "Conectado"
+  },
+  {
+    "id": 8,
+    "device_type": "Bombilla Led",
+    "device": "Bombilla Led - Sala",
+    "connected": "Conectado"
+  },
+  {
+    "id": 8,
+    "device_type": "Bombilla Led",
+    "device": "Bombilla Led - Baño Habitación",
+    "connected": "Conectado"
   }
 ]

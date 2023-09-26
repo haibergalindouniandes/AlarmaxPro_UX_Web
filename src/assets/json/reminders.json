@@ -18,39 +18,27 @@
     "date": "Semanal"
   },
   {
-    "id": 1,
-    "description": "PAGAR FACTURA DEL TELEFONO",
-    "hour": "8:00 A.M",
-    "date": "Martes, 30 de Abril"
+    "id": 4,
+    "description": "PAGAR FACTURA DE TV",
+    "hour": "12:00 P.M",
+    "date": "Mensual"
   },
   {
-    "id": 2,
-    "description": "HACER SEGUIMIENTO DE EQUIPO",
-    "hour": "10:30 A.M",
-    "date": "Semanal"
+    "id": 5,
+    "description": "CITA ODONTOLOGICA",
+    "hour": "5:30 A.M",
+    "date": "Sabado, 10 de Mayo"
   },
   {
-    "id": 3,
-    "description": "EJERCICIO",
-    "hour": "6:00 P.M",
-    "date": "Semanal"
+    "id": 6,
+    "description": "CITA VETERINARIO",
+    "hour": "9:30 A.M",
+    "date": "Domingo, 11 de Mayo"
   },
   {
-    "id": 1,
-    "description": "PAGAR FACTURA DEL TELEFONO",
-    "hour": "8:00 A.M",
-    "date": "Martes, 30 de Abril"
-  },
-  {
-    "id": 2,
-    "description": "HACER SEGUIMIENTO DE EQUIPO",
-    "hour": "10:30 A.M",
-    "date": "Semanal"
-  },
-  {
-    "id": 3,
-    "description": "EJERCICIO",
-    "hour": "6:00 P.M",
-    "date": "Semanal"
+    "id": 7,
+    "description": "SALIDA CINE",
+    "hour": "8:30 P.M",
+    "date": "Sabdi, 16 de Junio"
   }
 ]

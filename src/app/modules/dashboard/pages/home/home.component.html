@@ -1,11 +1,30 @@
 <div class="row">
-  <div class="col-4">
-    <app-alarms></app-alarms>
+  <!-- Header -->
+  <div class="row header">
+    <app-header></app-header>
   </div>
-  <div class="col-4">
-    <app-reminders></app-reminders>
+  <!-- Content -->
+  <div class="row">
+    <div class="main-container">
+      <div class="child-container">
+        <!-- Main Content -->
+        <div class="row">
+          <div class="col">
+            <app-alarms></app-alarms>
+          </div>
+          <div class="col">
+            <app-reminders></app-reminders>
+          </div>
+          <div class="col">
+            <app-devices></app-devices>
+          </div>
+        </div>
+        <!-- Main Content -->
+      </div>
+    </div>
   </div>
-  <div class="col-4">
-    <app-devices></app-devices>
+  <!-- Footer -->
+  <div class="row">
+    <app-footer></app-footer>
   </div>
 </div>

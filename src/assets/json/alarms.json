@@ -18,27 +18,27 @@
     "days": "Lu Mi Vi Do"
   },
   {
-    "id": 3,
-    "description": "EJERCICIO",
-    "hour": "6:00 P.M",
-    "days": "Lu Mi Vi Do"
+    "id": 4,
+    "description": "REVISIÓN SEMANAL",
+    "hour": "5:00 A.M",
+    "days": "Lu"
   },
   {
-    "id": 3,
-    "description": "EJERCICIO",
-    "hour": "6:00 P.M",
-    "days": "Lu Mi Vi Do"
+    "id": 5,
+    "description": "ALMUERZO CON EL EQUIPO",
+    "hour": "1:00 P.M",
+    "days": "Lu Mi Vi"
   },
   {
-    "id": 3,
-    "description": "EJERCICIO",
-    "hour": "6:00 P.M",
-    "days": "Lu Mi Vi Do"
+    "id": 6,
+    "description": "CLASE YOGA",
+    "hour": "10:00 A.M",
+    "days": "Do"
   },
   {
-    "id": 3,
-    "description": "EJERCICIO",
-    "hour": "6:00 P.M",
-    "days": "Lu Mi Vi Do"
+    "id": 7,
+    "description": "CENA FAMILIAR",
+    "hour": "8:00 P.M",
+    "days": "Sa"
   }
 ]

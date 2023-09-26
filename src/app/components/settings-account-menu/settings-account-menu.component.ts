@@ -24,4 +24,8 @@ export class SettingsAccountMenuComponent implements OnInit {
     this.router.navigate(['/'])
   };
 
+  notImplemented(){
+    this.toastr.warning('Not implemented', '¡¡¡ Esta funcionalidad no esta implementada para este Release  !!!');
+  }
+
 }

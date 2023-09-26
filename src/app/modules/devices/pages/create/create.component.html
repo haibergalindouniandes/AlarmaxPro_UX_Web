@@ -1,10 +1,27 @@
 <div class="row">
-  <div class="centerFlex">
-    <table>
-      <tr>
-        <td class="style-padding-right"><app-devices></app-devices></td>
-        <td><app-devices-create></app-devices-create></td>
-      </tr>
-    </table>
+  <!-- Header -->
+  <div class="row header">
+    <app-header></app-header>
+  </div>
+  <!-- Content -->
+  <div class="row">
+    <div class="main-container">
+      <div class="child-container">
+        <!-- Main Content -->
+        <div class="row">
+          <table>
+            <tr>
+              <td class="style-padding-right"><app-devices></app-devices></td>
+              <td><app-devices-create></app-devices-create></td>
+            </tr>
+          </table>
+        </div>
+        <!-- Main Content -->
+      </div>
+    </div>
+  </div>
+  <!-- Footer -->
+  <div class="row">
+    <app-footer></app-footer>
   </div>
 </div>

@@ -14,13 +14,6 @@
   color: white;
 }
 
-.login-wrapper mat-card-header {
-  text-align: center;
-  width: 100%;
-  display: block;
-  font-weight: 700;
-}
-
 .align-center {
   display: flex;
   justify-content: center;
@@ -30,6 +23,13 @@
   font-size: 30px;
   margin: 0;
   color: #49A9F2;
+}
+
+.login-wrapper mat-card-header {
+  text-align: center;
+  width: 100%;
+  display: block;
+  font-weight: 700;
 }
 
 .login-wrapper .mat-card {
