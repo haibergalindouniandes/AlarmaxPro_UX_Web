@@ -13,6 +13,11 @@ Repositorio para la entrega final del Proyecto MISW-4302-2023-14 Versión Web
 
 Este proyecto tiene como objetivo la Maquetación del Front End de la aplicación Web Alarmax Pro.  
 
+## Control de cambios
+Aunque en la maquetación Web se intentó de ser lo más fiel a los Mockups diseñados con la herramienta Adobe XD, dado a diversos temas asociados al conocimiento y restricciones en los diferentes lenguajes utilizados para dicha maquetación, se evidencian algunas diferencias entre los dos diseños. Las diferencias más representativas son listadas y justificadas en el siguiente Excel como un control de cambios.
+
+[ControlDeCambios.xlsx](https://github.com/haibergalindouniandes/AlarmaxPro_UX_Web/files/12744284/ControlDeCambios.xlsx)
+
 ## Estructura de carpetas del proyecto
 
 El proyecto está compuesto por la siguiente estructura de carpetas:
